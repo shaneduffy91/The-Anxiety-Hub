@@ -59,10 +59,8 @@ h2 {
 } 
 
 #footnav {
-    background-color: rgb(11, 6, 73);
-    color: white;
     padding: 1.5rem;
-    
+    text-decoration: none;
 }
 
 #footnav > a {
@@ -72,31 +70,24 @@ h2 {
     text-transform: uppercase;
 }
 
+#footnav a:link {
+    color:white;
+    text-decoration: none;
+    
+}
+
 #footnav a:hover {
 	text-decoration: none;
 	color: gold;
 } 
 
-a:hover {
-	text-decoration: none;
-	color: gold;
-} 
-
-a:link {
-    color:rgb(11, 6, 73);
-    text-decoration: underline;
-    
-} 
-
-a:visited {
-    color:rgb(11, 6, 73);
-    
-}
 
 #homenav {
     font-size: xx-large;
     font-weight: bold;
+    color:rgb(11, 6, 73);
 }
+
 
 #homenav > a {
     text-decoration: none;

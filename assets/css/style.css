@@ -38,7 +38,7 @@ h2 {
 .headnav a:link {
     color: white;
     text-decoration: none;
-    /*background-color: #0585dbc7;*/
+    
     
 }
 
@@ -47,12 +47,12 @@ h2 {
 	color: white;
 	margin: 1rem;
     text-transform: uppercase;
-    /*background-color: #0585dbc7;*/
+    
 }
 
 .headnav a:visited {
     color: white;
-    /*background-color: #0585db;*/
+    
 }
 
 .headnav a:hover {
@@ -87,12 +87,12 @@ a:hover {
 a:link {
     color:rgb(11, 6, 73);
     text-decoration: underline;
-    /*background:rgb(11, 6, 73);*/
+    
 } 
 
 a:visited {
     color:rgb(11, 6, 73);
-    /*background:rgb(11, 6, 73);*/
+    
 }
 
 

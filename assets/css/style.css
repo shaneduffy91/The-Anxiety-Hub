@@ -339,7 +339,7 @@ h4 {
     /*max-width: 600px;
     margin: auto;*/
     max-width: 60%;
-    margin-left:550px;
+    /*margin-left:550px;*/
     margin-right:auto;
     align-content: center;
     text-align: left;
@@ -356,11 +356,13 @@ h4 {
 
 .footlist {
     list-style-type: none;
+    
 }
 
 .footer-col {
     width: 25%;
     padding: 0 35px;
+    
 }
 
 .footer-col a:link {
@@ -368,14 +370,12 @@ h4 {
     text-decoration: none;      
 }
 
-.footer-col > a {
+.footer-col a {
     text-decoration: none;
 	color: white;
-	margin: 1rem;
-    text-transform: uppercase;
 }
 
-.footer-col > a:visited {
+.footer-col a:visited {
     color: white;
 }
 
@@ -385,7 +385,8 @@ h4 {
 } 
 .copyright {
     padding-top: 15px;
-    margin-top: 5px;
+    margin-top: 45px;
+    
 }
 .headnav {
     color: white;
@@ -462,4 +463,26 @@ section {
     padding-top: 50px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.footer-col h4 {
+   margin-bottom: 7px;
+   text-transform: uppercase;
+}  
+
+.footlist {
+    line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-col {
+        width: 100%;
+    }
 }

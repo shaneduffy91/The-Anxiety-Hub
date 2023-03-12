@@ -336,16 +336,16 @@ h4 {
 }
 
 .container {
-    /*max-width: 600px;
-    margin: auto;*/
-    max-width: 60%;
-    /*margin-left:550px;*/
+    max-width: 50%;
+    width: 500px;
+    margin-left:auto;
     margin-right:auto;
     align-content: center;
     text-align: left;
     display: block;
-    padding-top: 10px;
-    padding-left: 175px;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 5px;
     padding-right: 5px;
 }
 
@@ -360,7 +360,7 @@ h4 {
 }
 
 .footer-col {
-    width: 25%;
+    width: 40%;
     padding: 0 35px;
     
 }
@@ -404,7 +404,7 @@ h4 {
     text-decoration: none;      
 }
 
-.headnav > a {
+.headnav a {
 	text-decoration: none;
 	color: white;
 	margin: 1rem;
@@ -465,6 +465,21 @@ section {
     padding-right: 5px;
 }
 
+.contstyle a {
+    color: rgb(11, 3, 116);
+    text-decoration: underline;  
+}
+
+.contstyle a:visited {
+    color: rgb(11, 3, 116);
+    text-decoration: underline;  
+}
+
+.contstyle a:hover {
+    color: #0585dbc7;
+    text-decoration: underline;  
+}
+
 .footer-col h4 {
    margin-bottom: 7px;
    text-transform: uppercase;
@@ -473,6 +488,21 @@ section {
 .footlist {
     line-height: 1.5;
 }
+
+/*.welcome {
+    max-width: 50%;
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    align-content: center;
+    text-align: left;
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: whitesmoke;
+}*/
 
 @media (max-width: 767px) {
     .footer-col {

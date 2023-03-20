@@ -163,10 +163,6 @@ section {
     padding-bottom: 50px;
 }
 
-.social {
-    display: flexbox;
-}
-
 .contstyle {
     max-width: 50%;
     margin-left:auto;

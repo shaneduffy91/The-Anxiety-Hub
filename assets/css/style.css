@@ -105,6 +105,15 @@ h4 {
 .headnav {
     color: white;
     padding: 1.5rem;
+    width: 100%;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
 .navbackground {
@@ -276,4 +285,31 @@ legend {
     .footer-col {
         width: 100%;
     }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    section {
+        margin: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .contstyle {
+        margin: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline;
+        
+    }
+
+    .developer {
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline; 
+    }
+   
 }

@@ -53,7 +53,19 @@ all the information they need about anxiety and how to get help all in one place
 </ul>
 <br>
 
+### Features Left to Implement
+There are a couple of ideas for future features to be added to The Anxiety Hub.
+<ul>
+        <li>One idea is to give the user the ability to sign up to meditation apps such as Calm and Aura via an account with The Anxiety Hub. 
+        When the user has signed up with The Anxiety Hub, they could choose to subscibe to Calm or Aura or both. </li>
+        <li>Another idea is to allow the user to purchase self-help book via the webpage instead of having to go to another webpage to purchase.</li>
+        <li>Lastly, a form submitted feature has to be implemented. </li> 
+<br>
+
 ## Testing
+I have tested the website using the Google Chrome and Microsoft Edge Browsers on a Windows PC. I can confirm that it works on both.
+I have used the Chrome Developer tool to check the website for responsiveness. I can conclude that the website works on different screen 
+sizes ranging from Desktop to iphone SE screen sizes.
 
 ### Validator testing
 

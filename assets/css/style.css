@@ -202,7 +202,7 @@ section {
 }
 
 .survey {
-    line-height: 3rem;
+    line-height: 2rem;
 }
 
 .footer-col h4 {
@@ -262,6 +262,7 @@ form {
 	margin: 25px auto;
 	background-color: white;
     color: black;
+    align-content: center;
 }
 
 .block-label {

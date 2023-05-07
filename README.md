@@ -68,6 +68,10 @@ I have tested the website using the Google Chrome and Microsoft Edge Browsers on
 I have used the Chrome Developer tool to check the website for responsiveness. I can conclude that the website works on different screen 
 sizes ranging from Desktop to iphone SE screen sizes.
 
+<img src="/workspace/THe-Anxiety-Hub/assets/css/images/Screenshot 2023-05-07 203934.png"  style= "width:600px; height:366px" alt="Responsive Website">
+
+
+
 ### Validator testing
 The W3C Markup Validator and the W3C CSS Validator were used to validate all pages of the project. All syntax errors were fixed 
 apart from the minor bugs on the form.html page.
@@ -82,7 +86,7 @@ apart from the minor bugs on the form.html page.
         </li>
         <li>
         Lighthouse
-        <ul><li></li></ul>
+        <img src="/workspace/THe-Anxiety-Hub/assets/css/images/Screenshot 2023-05-07 203741.png"  style= "width:600px; height:366px" alt="Lighthouse">
         </li>
 </ul>
 
@@ -116,6 +120,3 @@ The website was deployed to GitHub pages using the following steps:
 <li>Sheppard-Pratt: Information on OCD and Jon Hershfield MFT. Recommendation of reading material.</li>
 </ul>
 
-### Content
-
-### Media

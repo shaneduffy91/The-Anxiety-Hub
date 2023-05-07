@@ -70,7 +70,8 @@ sizes ranging from Desktop to iphone SE screen sizes.
 
 <img src="\workspace\The-Anxiety-Hub\assets\css\images\Screenshot 2023-05-07 203934.png"  style="width:600px; height:450px" alt="Responsive Website">
 
-
+<br>
+<br>
 
 ### Validator testing
 The W3C Markup Validator and the W3C CSS Validator were used to validate all pages of the project. All syntax errors were fixed 
@@ -87,10 +88,9 @@ apart from the minor bugs on the form.html page.
         <li>
         Lighthouse
         <ul>
-        <li>
-        <img src="\workspace\The-Anxiety-Hub\assets\css\images\Screenshot 2023-05-07 203741.png"  style="width:700px; height:450px" alt="Lighthouse">
-        </li>
+        <li><img src="\workspace\The-Anxiety-Hub\assets\css\images\Screenshot 2023-05-07 203741.png"  style="width:700px; height:450px" alt="Lighthouse"></li>
         </ul>
+        </li>
 </ul>
 
 

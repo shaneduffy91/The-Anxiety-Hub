@@ -93,11 +93,6 @@ apart from the minor bugs on the form.html page.
         </li>
 </ul>
 
-
-### Unfixed Bugs
-There are a few unfixed errors on the form.html page because the questions have the same multiple choice answers. 
-Also, the form submission does not work due to an error with formdump.codeinstitute server.
-
 ## Deployment
 The website was deployed to GitHub pages using the following steps:
 <ul>

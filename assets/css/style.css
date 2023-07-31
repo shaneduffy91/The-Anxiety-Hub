@@ -13,7 +13,36 @@ body {
     background: url(https://images.pexels.com/photos/1770809/pexels-photo-1770809.jpeg)center center / cover no-repeat fixed;
     
     
-  }
+}
+
+.contstyle {
+    max-width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    align-content: center;
+    text-align: left;
+    line-height: 2rem;
+    display: block;
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+
+.contstyle a {
+    color: rgb(11, 3, 116);
+    text-decoration: underline;  
+}
+
+.contstyle a:visited {
+    color: rgb(11, 3, 116);
+    text-decoration: underline;  
+}
+
+.contstyle a:hover {
+    color: #0585dbc7;
+    text-decoration: underline;  
+}
 
 header {
     color: white;
@@ -186,35 +215,6 @@ nav ul li {
     padding-right: 5px;
     padding-top: 100px;
     padding-bottom: 50px;
-}
-
-#contstyle {
-    max-width: 60%;
-    margin-left:auto;
-    margin-right:auto;
-    align-content: center;
-    text-align: left;
-    line-height: 2rem;
-    display: block;
-    padding-top: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 15px;
-}
-
-#contstyle a {
-    color: rgb(11, 3, 116);
-    text-decoration: underline;  
-}
-
-#contstyle a:visited {
-    color: rgb(11, 3, 116);
-    text-decoration: underline;  
-}
-
-#contstyle a:hover {
-    color: #0585dbc7;
-    text-decoration: underline;  
 }
 
 .survey {

@@ -68,7 +68,7 @@ I have tested the website using the Google Chrome and Microsoft Edge Browsers on
 I have used the Chrome Developer tool to check the website for responsiveness. I can conclude that the website works on different screen 
 sizes ranging from Desktop to iphone SE screen sizes.
 
-<img src="assets\images\Screenshot 2023-05-07 203934.png"  style="width:600px; height:450px" alt="Responsive Website">
+<img src="assets\images\AmIResponsive 2023-07-31 150327.png"  style="width:600px; height:450px" alt="Responsive Website">
 
 <br>
 <br>

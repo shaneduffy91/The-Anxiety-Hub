@@ -88,14 +88,14 @@ apart from the minor bugs on the form.html page.
         <li>
         Lighthouse
         <ul>
-        <li><img src="assets\images\Screenshot 2023-05-07 203741.png"  style="width:700px; height:450px" alt="Lighthouse"></li>
+        <li><img src="assets\images\Lighthouse 2023-07-31 144927.png"  style="width:700px; height:450px" alt="Lighthouse"></li>
         </ul>
         </li>
 </ul>
 
 
 ### Unfixed Bugs
-There are a few unfixed errors on the form.html page because the questions have thesame multiple choice answers. 
+There are a few unfixed errors on the form.html page because the questions have the same multiple choice answers. 
 Also, the form submission does not work due to an error with formdump.codeinstitute server.
 
 ## Deployment

@@ -23,8 +23,6 @@ header {
     display: block;
     padding: 40px 0;
     background-color: rgb(11, 3, 116);
-    
-    
 } 
 
 footer {
@@ -39,10 +37,24 @@ footer {
 }
 
 .welcome {
-    font-size: 50px;
+    font-size: 30px;
     line-height: 4rem;
     padding-top: 20px;
+    color: white;
+    background-color: rgb(11, 3, 116);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
 
+.headlogo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 80px;
+    height: 90px;
+    padding-bottom: 1rem;
 }
 
 h4 {
@@ -50,22 +62,20 @@ h4 {
 }
 
 .container {
-    max-width: 50%;
-    width: 500px;
+    max-width: 100%;
+    width: 700px;
     margin-left:auto;
     margin-right:auto;
     align-content: center;
     text-align: left;
-    display: block;
-    position: relative;
-    padding-top: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 #row {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
 }
 
 .footlist {
@@ -109,8 +119,14 @@ h4 {
     
 }
 
+#mainNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 nav ul li {
-    display: inline-block;
     list-style-type: none;
     line-height: 80px;
     margin: 0 5px;
@@ -144,7 +160,7 @@ nav ul li {
 	color: gold;
 } 
 
-section {
+.section {
     display: inline-block;
     background-color: whitesmoke;
     width: 80%;
@@ -158,7 +174,7 @@ section {
 }
 
 .developer {
-    max-width: 50%;
+    max-width: 60%;
     margin-left:auto;
     margin-right:auto;
     align-content: center;
@@ -172,8 +188,8 @@ section {
     padding-bottom: 50px;
 }
 
-.contstyle {
-    max-width: 50%;
+#contstyle {
+    max-width: 60%;
     margin-left:auto;
     margin-right:auto;
     align-content: center;
@@ -186,17 +202,17 @@ section {
     padding-bottom: 15px;
 }
 
-.contstyle a {
+#contstyle a {
     color: rgb(11, 3, 116);
     text-decoration: underline;  
 }
 
-.contstyle a:visited {
+#contstyle a:visited {
     color: rgb(11, 3, 116);
     text-decoration: underline;  
 }
 
-.contstyle a:hover {
+#contstyle a:hover {
     color: #0585dbc7;
     text-decoration: underline;  
 }
@@ -214,7 +230,12 @@ section {
     line-height: 1.5;
 }
 
+#anxietyForm {
+    width: 60%;
+}
+
 .formstyle {
+    width: 90%;
     line-height: 50px;
     letter-spacing: 1px;
     padding-top: 20px;
@@ -222,6 +243,16 @@ section {
     padding-right: 5px;
     padding-bottom: 25px;
     margin: auto 2rem;
+}
+
+.datasection {
+    width: 90%;
+}
+
+.formdata {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 fieldset {
@@ -276,15 +307,38 @@ legend {
 	margin: 20px 0 10px 0;
 }
 
-@media (max-width: 767px) {
+
+@media (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+        
+    }
+
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
-}
 
-@media (max-width: 767px) {
-    .footer-col {
+    #row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .forestImage {
+        width: 50%;
+        /*display: flex;
+        justify-content: center;
+        align-content: center;*/
+    }
+
+    #mainNav {
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -296,22 +350,23 @@ legend {
 
     section {
         margin: 0;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
     }
 
-    .contstyle {
+    #contstyle {
         margin: 0;
         padding-left: 5px;
         padding-right: 5px;
-        display: inline;
+        max-width: 100%;
         
     }
 
     .developer {
         padding-left: 5px;
         padding-right: 5px;
-        display: inline; 
+        
     }
    
 }

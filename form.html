@@ -22,7 +22,7 @@
     </header>
 
     <nav class="headnav navbackground">
-        <ul>
+        <ul id="mainNav">
             <li>
                 <a href="index.html" aria-label="Home Page">Home</a>
             </li>
@@ -39,7 +39,7 @@
 
     
     
-            <form action="https://formdump.codeinstitute.net" method="POST">
+            <form id= "anxietyForm" action="https://formdump.codeinstitute.net" method="POST">
     
             <fieldset class="formstyle">
                 <legend>Your Details</legend>
@@ -69,198 +69,134 @@
                 <fieldset class="formstyle">
                     <legend>The Anxiety Survey</legend>
     
-                    <section>
+                    <section class = "datasection">
                     <p>Do you feel anxious, nervous, worried or fearful?</p>
     
-                    <div>
+                    <div class = "formdata">
                     <input id="Not-at-All-radio" name="anxious-feelings" value="Not-at-All" type="radio">
                     <label for="Not-at-All-radio">Not at All</label>
-                    </div>
-    
-                    <div>
                     <input id="Sometimes-radio" name="anxious-feelings" value="Sometimes" type="radio">
                     <label for="Sometimes-radio">Sometimes</label>
-                    </div>
-    
-                    <div>
                     <input id="Moderately-radio" name="anxious-feelings" value="Moderately" type="radio">
                     <label for="Moderately-radio">Moderately</label>
-                    </div>
-    
-                    <div>
                     <input id="A-lot-radio" name="anxious-feelings" value="A-lot" type="radio">
                     <label for="A-lot-radio">A Lot</label>
                     </div>
+    
                     </section>
     
-                    <section>
+                    <section class= "datasection">
                     <p>Do you feel that things around you are strange or unreal?</p>
         
-                    <div>
+                    <div class = "formdata">
                     <input id="Not-at-All-radio" name="strange-feelings" value="Not-at-All" type="radio">
                     <label for="Not-at-All-radio">Not at All</label>
-                    </div>
-        
-                    <div>
                     <input id="Sometimes-radio" name="strange-feelings" value="Sometimes" type="radio">
                     <label for="Sometimes-radio">Sometimes</label>
-                    </div>
-        
-                    <div>
                     <input id="Moderately-radio" name="strange-feelings" value="Moderately" type="radio">
                     <label for="Moderately-radio">Moderately</label>
-                    </div>
-        
-                    <div>
                     <input id="A-lot-radio" name="strange-feelings" value="A-lot" type="radio">
                     <label for="A-lot-radio">A Lot</label>
                     </div>
+        
                     </section>
                     
-                    <section>
+                    <section class= "datasection">
                     <p>Do you get sudden unexpected panic spells?</p>
     
-                    <div>
+                    <div class = "formdata">
                     <input id="Not-at-All-radio" name="panic-spells" value="Not-at-All" type="radio">
                     <label for="Not-at-All-radio">Not at All</label>
-                    </div>
-        
-                    <div>
                     <input id="Sometimes-radio" name="panic-spells" value="Sometimes" type="radio">
                     <label for="Sometimes-radio">Sometimes</label>
-                    </div>
-        
-                    <div>
                     <input id="Moderately-radio" name="panic-spells" value="Moderately" type="radio">
                     <label for="Moderately-radio">Moderately</label>
-                    </div>
-        
-                    <div>
                     <input id="A-lot-radio" name="panic-spells" value="A-lot" type="radio">
                     <label for="A-lot-radio">A Lot</label>
                     </div>
+        
                     </section>
                     
     
-                    <section>
+                    <section class= "datasection">
                     <p>Do you feel tense, stressed, "uptight" or on edge?</p>
                     
-                    <div>
+                    <div class = "formdata">
                     <input id="Not-at-All-radio" name="stressed" value="Not-at-All" type="radio">
                     <label for="Not-at-All-radio">Not at All</label>
-                    </div>
-        
-                    <div>
                     <input id="Sometimes-radio" name="stressed" value="Sometimes" type="radio">
                     <label for="Sometimes-radio">Sometimes</label>
-                    </div>
-        
-                    <div>
                     <input id="Moderately-radio" name="stressed" value="Moderately" type="radio">
                     <label for="Moderately-radio">Moderately</label>
-                    </div>
-        
-                    <div>
                     <input id="A-lot-radio" name="stressed" value="A-lot" type="radio">
                     <label for="A-lot-radio">A Lot</label>
                     </div>
-                    </section>
+        
+                   </section>
                     
-                    <section>
+                    <section class= "datasection">
                     <p>Do you have difficulty concentrating?</p>
                     
-                    <div>
+                    <div class = "formdata">
                     <input id="Not-at-All-radio" name="concentration" value="Not-at-All" type="radio">
                     <label for="Not-at-All-radio">Not at All</label>
-                    </div>
-        
-                    <div>
                     <input id="Sometimes-radio" name="concentration" value="Sometimes" type="radio">
                     <label for="Sometimes-radio">Sometimes</label>
-                    </div>
-        
-                    <div>
                     <input id="Moderately-radio" name="concentration" value="Moderately" type="radio">
                     <label for="Moderately-radio">Moderately</label>
-                    </div>
-        
-                    <div>
                     <input id="A-lot-radio" name="concentration" value="A-lot" type="radio">
                     <label for="A-lot-radio">A Lot</label>
                     </div>
+        
                     </section>
     
-                    <section>
+                    <section class= "datasection">
                     <p>Do you have a fear of fainting or passing out?</p>
                     
-                    <div>
+                    <div class = "formdata">
                     <input id="Not-at-All-radio" name="fainting" value="Not-at-All" type="radio">
                     <label for="Not-at-All-radio">Not at All</label>
-                    </div>
-        
-                    <div>
                     <input id="Sometimes-radio" name="fainting" value="Sometimes" type="radio">
                     <label for="Sometimes-radio">Sometimes</label>
-                    </div>
-        
-                    <div>
                     <input id="Moderately-radio" name="fainting" value="Moderately" type="radio">
                     <label for="Moderately-radio">Moderately</label>
-                    </div>
-        
-                    <div>
                     <input id="A-lot-radio" name="fainting" value="A-lot" type="radio">
                     <label for="A-lot-radio">A Lot</label>
                     </div>
+        
                     </section>
     
                     
-                    <section>
+                    <section class= "datasection">
                     <p>Do you feel pain, pressure or tightness in the chest?</p>
                     
-                    <div>
+                    <div class = "formdata">
                     <input id="Not-at-All-radio" name="tightness" value="Not-at-All" type="radio">
                     <label for="Not-at-All-radio">Not at All</label>
-                    </div>
-        
-                    <div>
                     <input id="Sometimes-radio" name="tightness" value="Sometimes" type="radio">
                     <label for="Sometimes-radio">Sometimes</label>
-                    </div>
-        
-                    <div>
                     <input id="Moderately-radio" name="tightness" value="Moderately" type="radio">
                     <label for="Moderately-radio">Moderately</label>
-                    </div>
-        
-                    <div>
                     <input id="A-lot-radio" name="tightness" value="A-lot" type="radio">
                     <label for="A-lot-radio">A Lot</label>
                     </div>
+                    
                     </section>
             
-                    <section>
+                    <section class= "datasection">
                     <p>Do you feel tired or eaily exhausted?</p>
                     
-                    <div>
+                    <div class = "formdata">
                     <input id="Not-at-All-radio" name="exhausted" value="Not-at-All" type="radio">
                     <label for="Not-at-All-radio">Not at All</label>
-                    </div>
-        
-                    <div>
                     <input id="Sometimes-radio" name="exhausted" value="Sometimes" type="radio">
                     <label for="Sometimes-radio">Sometimes</label>
-                    </div>
-        
-                    <div>
                     <input id="Moderately-radio" name="exhausted" value="Moderately" type="radio">
                     <label for="Moderately-radio">Moderately</label>
-                    </div>
-        
-                    <div>
                     <input id="A-lot-radio" name="exhausted" value="A-lot" type="radio">
                     <label for="A-lot-radio">A Lot</label>
                     </div>
+        
                     </section>
             
                     <br>
@@ -275,7 +211,7 @@
         <div class="container">
         <div id="row">
         <div class="footer-col">
-            <h4>Helpful Links</h4>
+            <h4>Quick Links</h4>
             <ul class="footlist">
                 <li>
                     <a href="https://feelinggood.com/" target="_blank" aria-label="Visit Feeling Good by Dr David Burns">Feeling Good </a>
@@ -285,15 +221,6 @@
                 </li>
                 <li>
                     <a href="https://www.hse.ie/eng/" target="_blank" aria-label="Visit HSE.ie">HSE</a>
-                </li>
-                <li>
-                    <a href="https://www.calm.com" target="_blank" aria-label="Visit Calm Webpage">Calm</a>
-                </li>
-                <li>
-                    <a href="https://www.headspace.com" target="_blank" aria-label="Visit Headspace">Headspace</a>
-                </li>
-                <li>
-                    <a href="https://www.aurahealth.io" target="_blank" aria-label="Visit Aura Health">Aura</a>
                 </li>
             </ul>
         </div>
@@ -308,6 +235,20 @@
                 </li>
                 <li>
                     <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page">Instagram</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Meditation</h4>
+            <ul class="footlist">
+                <li>
+                    <a href="https://www.calm.com" target="_blank" aria-label="Visit Calm Webpage">Calm</a>
+                </li>
+                <li>
+                    <a href="https://www.headspace.com" target="_blank" aria-label="Visit Headspace">Headspace</a>
+                </li>
+                <li>
+                    <a href="https://www.aurahealth.io" target="_blank" aria-label="Visit Aura Health">Aura</a>
                 </li>
             </ul>
         </div>

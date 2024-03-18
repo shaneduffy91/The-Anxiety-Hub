@@ -381,6 +381,7 @@ legend {
         max-width: 100%;
         width: 400px;
         position: relative;
+        padding-left: 0px;
         margin-left: auto;
         margin-right: auto;
         align-content: center;
